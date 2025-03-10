@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
@@ -25,4 +26,70 @@ html, body {
 header > img {
   width: 3rem;
   border-radius: 50%;
+}
+
+.entry {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-top: 3rem;
+}
+.entry .info {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  padding-top: 0rem;
+  margin-top: 0;
+  padding-left: 2rem;
+}
+.entry .info .marker {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+.entry .info .country {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+  font-weight: 200;
+}
+.entry .info a {
+  color: #2B283A;
+  font-size: 0.7rem;
+}
+.entry .info a:visited {
+  color: #918E9B;
+}
+.entry .info h2.entry-title {
+  background-color: #ffffff;
+  padding: 0.8rem;
+  font-size: 2.5rem;
+  padding-left: 0;
+}
+.entry .info p.trip-dates {
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+.entry .info p.entry-text {
+  line-height: 1.5;
+  font-size: 1.4rem;
+  width: 60%;
+  padding-top: 2rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.image-container {
+  width: 13rem;
+  height: 20rem;
+  overflow: hidden;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=index.css.map */
